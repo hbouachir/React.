@@ -18,37 +18,37 @@ function App() {
                           <div class="row">
                                 <div class="col-lg-6">
                                     <label>First Name:</label>
-                                    <input type="text" name="prenon" class="form-control" placeholder="Enter your first name...">
+                                    <input type="text" name="prenon" class="form-control" placeholder="Enter your first name..."/>
                                 </div>
                                 <div class="col-lg-6">
                                   <label>Last Name:</label>
-                                  <input type="text" name="nom" class="form-control" placeholder="Enter your last name ...">
+                                  <input type="text" name="nom" class="form-control" placeholder="Enter your last name ..."/>
                               </div>
 
                           </div>
-                          <br>
+                          <br/>
                           <label >Email:</label>
-                          <input type="email" name="email" class="form-control" placeholder="Enter your Email ...">
-                          <br>
+                          <input type="email" name="email" class="form-control" placeholder="Enter your Email ..."/>
+                          <br/>
                           <div class="row">
                             <div class="col-lg-6">
                                 <label>Password:</label>
-                                <input type="password" class="form-control" placeholder="Enter your password...">
+                                <input type="password" class="form-control" placeholder="Enter your password..."/>
                             </div>
                             <div class="col-lg-6">
                               <label>Re-type password:</label>
-                              <input type="password"  class="form-control" placeholder="Re-type again ...">
+                              <input type="password"  class="form-control" placeholder="Re-type again ..."/>
                           </div>
 
                       </div>
-                      <br>
+                       <br/>
                       <select class="form-control">
                               <option >Choose gender ...</option>
                               <option >Male</option>
                               <option >Female</option>
                       </select>
-                      <br>
-                      <input type="submit" name="submit" value="submit" class="btn btn-primary btn-block btn-lg">
+                      <br/>
+                      <input type="submit" name="submit" value="submit" class="btn btn-primary btn-block btn-lg"/>
 
                       </form>
 
