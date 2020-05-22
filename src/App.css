@@ -1,38 +1,16 @@
-.App {
-  text-align: center;
-}
+body{background-image: url(https://www.solidbackgrounds.com/download/2560x1440-blue-abstract-bubbles-free-website-background-image.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#ui{
+  background-color: #333;
+  padding:30px;
+  margin-top:30px ;
+  border-radius: 10px;
+  opacity:0.8;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#ui label,h1{
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
